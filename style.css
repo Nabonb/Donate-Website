@@ -63,11 +63,7 @@ body{
 .for-input{
     margin-top: 70px;
     height: 150px;
-}
-
-.for-input div{
-    
-    padding: 10px 700px;
+    text-align: center;
 }
 input{
     font-size: 30px;
@@ -76,7 +72,7 @@ input{
     text-align: center;
     border: none;
     border-bottom: 2px solid rgb(192, 192, 192);
-    align-content: center;
+
 }
 #for-donate{
     text-decoration: none;
@@ -86,7 +82,55 @@ input{
     padding: 20px 25px;
     border-radius: 10px;
 }
-#another-id{
+ #another-id{
     padding-top: 30px;
-    padding-left: 850px;
+    margin-top: 20px;
+    
+} 
+#donate-section{
+    text-align: center;
+    margin-top: 100px;
+}
+#donate-plan h1{
+    font-size: 60px;
+    padding: 0%;
+}
+#donate-plan p{
+    font-weight: 400;
+    font-size: 25px;
+    font-family: 'Gilda Display', serif;
+}
+#for-three-div{
+    display: flex;
+    margin-top: 150px;
+
+}
+#for-three-div div{
+    width: 20%;
+    text-align: center;
+    margin: 0 30px;
+    padding: 20px 20px;
+}
+#for-three-div{
+    justify-content: center;
+}
+#for-three-div h1{
+    font-size: 40px;
+}
+#for-three-div p{
+    font-weight: 600;
+    font-family: 'Gilda Display', serif;
+}
+#first-div{
+    background-color: rgba(173, 216, 230, 0.466);
+    border-radius: 8px;
+}
+#second-div{
+    background-color: rgba(240, 128, 128, 0.445);
+    border-radius: 8px;
+    
+}
+#third-div{
+    background-color: rgba(244, 253, 119, 0.432);
+    border-radius: 8px;
 }
