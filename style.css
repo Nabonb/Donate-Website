@@ -154,7 +154,7 @@ input{
     display: flex;
 }
 #simple-padding{
-    border: 3px solid black;
+    border: 4px solid rgb(0, 0, 0);
 }
 #another-one{
     display: flex;
@@ -167,6 +167,53 @@ input{
     padding-left: 40px;
 }
 #why a{
-    border: 3px solid black;
+    border: 4px solid black;
     margin-left: 33px;
+}
+#before-last{
+    text-align: center;
+    margin-top: 150px;
+}
+#before-last h1{
+    font-size: 50px;
+}
+#before-last p{
+    font-size: 25px;
+    font-family: 'Gilda Display', serif;
+}
+.fortext{
+    
+    text-align: left;
+    background-color: rgba(128, 128, 128, 0.479);
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.forbutton{
+    background-color: rgb(255, 67, 67);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    width: 300px
+}
+#nicebg{
+    width: 50%;
+    margin-left: 400px;
+    padding: 80px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+#ending-section{
+    margin-top: 150px;
+    text-align: center;
+    background-color: black;
+    padding: 10px 20px;
+}
+#ending-section h1{
+    color: rgb(255, 80, 80);
+    font-size: 90px;
+    font-family: 'Dancing Script', cursive;
+}
+#ending-section p{
+    color: aliceblue;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
 }
