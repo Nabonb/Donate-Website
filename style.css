@@ -3,7 +3,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .first-section{
-    background-image: url(/donate-today-main/images/donation9.jpg);
+    background-image: url(donate-today-main/images/donation9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 1000px;
